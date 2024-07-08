@@ -1,0 +1,125 @@
+
+
+.border {
+  height: 100vh;
+  width: 100vw;
+  background-image: url('./View//weather.jpg');
+  background-size: cover;
+}
+
+.input {
+  margin: 15px;
+  height: 30px;
+  width: 400px;
+  text-align: center;
+  border-radius: 1px;
+  margin-top:130px;
+  /* margin-left: 200px; */
+}
+
+.city {
+ text-align: center;
+}
+.region{
+  margin: 0px 0px 10px 70px;
+}
+
+.info{
+  margin-top: -60px;
+}
+
+
+.img {
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: space-evenly;
+  width: 100vw;
+
+
+}
+
+.bg-sunny {
+  background-image: url(./View/sunny.jpg);
+}
+
+.bg-rainy {
+  background-image: url(./View/rainy.jpg );
+  background-size: cover;
+}
+
+.bg-cloudy {
+  background-image: url(./View/cloudy.jpg);
+  background-size: cover;
+}
+
+.location {
+  /* position: relative; */
+  /* top: 20px;    */
+  /* left: 35%; */
+  text-align: center;
+  border-bottom: 2px solid;
+  width: 160px;
+  margin: auto ;
+}
+
+.time {
+  height: 130px;
+  width: 250px;
+  backdrop-filter: blur(5px);
+/* margin-top: 0px; */
+border-radius: 10px;
+box-shadow:6px 7px 9px 0px rgb(62, 61, 61);
+}
+.flat{
+  height: 40px;
+  width: 40px;
+  /* padding: 30px; */
+  /* margin: 25px; */
+  margin-top: 30px;
+}
+.flat2{
+height: 40px;
+width: 40px;
+margin-left: 100px;
+}
+.card{
+  /* display:inline-block; */
+  height: 300px;
+  width: 300px;
+  /* border: 1px solid;  */
+  border-radius: 20px;
+  backdrop-filter:blur(10px);
+}
+
+
+.box{
+  margin-top: -1px;
+  text-align: center;
+}
+.box3{
+  height: 80px;
+  width: 90px;
+  margin-left: 30px;
+
+}
+.text{
+  height: 380px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-around;
+  margin-top: 10px; 
+}
+@media screen and(max-width:300px){
+  .text{
+
+flex-wrap: wrap;
+  }
+}
+.shrigonda{
+  margin-left: 40px;
+}
+.wind{
+  height: 40px;
+  width: 40px;
+  margin-left: 100px;
+}
